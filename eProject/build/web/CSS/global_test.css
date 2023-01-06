@@ -1,0 +1,281 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2014, 5:01:38 AM
+    Author     : Admin
+*/
+
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+root { 
+    display: inherit;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.content_wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.headerDiv{
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    border-bottom: 1px lightgray dotted;
+}
+.logo-container{
+    position: relative;
+    float: left;	
+}
+.logo-container a img{
+    position: relative;
+    width: 350px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.top_menu{
+    width: auto;
+    margin-top: 20px;
+    position: relative;	
+    float: left;
+}
+.top_menu ul li{
+    background-color: #18DADA;
+    color: #FFFFFF;
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 110px;
+    height: 110px;
+    border: 5px;
+    border-style: solid;
+    border-color: #40af64;
+}
+.top_menu ul a li img{
+    margin-top: 18px;
+    margin-left: 30px;	
+}
+.top_menu ul a li{
+    text-decoration: none;
+}
+.top_menu ul a li p{
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.top_menu ul li:hover{
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #dfdddd;
+}
+.LoginError {
+    
+}
+.LoginError h1 {
+    color: #a80606;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 25px;
+}
+.LoginError h5 {
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+}
+.LoginError a {
+    color: #083375;
+    text-decoration: none;
+}
+.LoginError a:hover {
+    text-decoration: underline;
+}
+.TestSection {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 740px;
+    background-color: white;
+}
+.test_introduction {
+    position: absolute;
+    padding: 10px;
+    top: 50px;
+    left: 50px;
+    width: 480px;
+    height: auto;
+    border: 1px gray solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #dfdfdb;
+}
+.test_introduction .test_introduction_title {
+    width: 100%;    
+    padding: 0px 0px 5px 0px;
+    font-family: Times New Roman;
+    font-size: 22px;
+    font-weight: bold;
+    color: #484848;
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+.test_introduction .test_introduction_desc {
+    padding: 10px;
+    color: #8c8989;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.test_profile {
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    padding: 25px;
+    margin: 0px 0px 0px 20px;
+    float: left;
+    width: 450px;
+    height: 380px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #dfdfdb;
+}
+.test_profile .test_profile_name {
+    width: 430px;
+    height: auto;
+    position: relative;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 1px lightgray solid;
+    padding: 10px;
+}
+.test_profile .test_profile_score {
+    position: relative;
+    width: 430px;
+    height: auto;
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px lightgray solid;
+    padding: 10px;
+}
+.test_profile .test_profile_accessable {
+    position: inherit;
+    width: 100%;
+    height: auto;
+}
+.test_profile .test_profile_accessable ul {
+    position: relative;
+    list-style-image: url(../resource/appbar.checkmark.uncrossed.png);
+    list-style-position: inside;
+    padding: 0px;
+    margin: 0px;
+}
+.test_profile .test_profile_accessable ul li {
+    position: relative;
+    border: 1px lightgray solid;
+    background: #FFFFFF;
+    margin-top: 10px;
+    width: 450px;
+}
+.test_profile .test_profile_accessable ul li span {
+    position: absolute;
+    font-family: Times New Roman;
+    font-size: 22px;
+    font-weight: bold;
+    color: #cccfce;
+    top: 25px;
+}
+
+.candidate_test_links {
+    position: relative;
+    width: 650px;
+    height: 570px;
+    float: right;
+    right: 30px;
+    top: 50px;
+    margin: 0px;
+    padding: 25px 15px 25px 15px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #dfdfdb;
+}
+.candidate_test_links .candidate_introduction_title {
+    width: 100%;    
+    padding: 0px 0px 5px 0px;
+    font-family: Times New Roman;
+    font-size: 22px;
+    font-weight: bold;
+    color: #484848;
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+.candidate_test_links .gk_link {
+    position: relative;
+    float: left;
+    border: 1px lightgray solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+.candidate_test_links .math_link {
+    position: relative;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 1px lightgray solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+.candidate_test_links .tech_link {
+    position: relative;
+    float: left;
+    border: 1px lightgray solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+.candidate_test_links .link_title {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #cccfce;
+    left: 10px;
+}
+.candidate_test_links .link_title:hover {
+    text-decoration: underline;
+}
+.candidate_test_links .link_img img {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 140px;
+    padding: 1px;
+    border: 1px #ababab solid;
+}
+.candidate_test_links .link_description {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+    left: 10px;
+    top: 10px;
+}
